@@ -1,0 +1,184 @@
+{
+	"pages": [
+		//#ifdef APP-PLUS
+		// {
+		//     "path" : "pages/common/guide/judge",
+		//     "style" : {
+		// 		"enablePullDownRefresh": false,
+		// 		"onReachBottomDistance": 100,
+		// 		"navigationStyle": "custom",
+		// 		"app-plus": {
+		// 			"contentAdjust": false,
+		// 			"bounce": "none"
+		// 		}
+		// 	}
+		// },
+		// {
+		//     "path" : "pages/common/guide/guide",
+		//     "style" : {
+		// 		"enablePullDownRefresh": false,
+		// 		"onReachBottomDistance": 100,
+		// 		"navigationStyle": "custom",
+		// 		"app-plus": {
+		// 			"contentAdjust": false,
+		// 			"bounce": "none"
+		// 		}
+		// 	}
+		// },
+		// #endif
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+			
+		},
+		
+		{
+			"path": "pages/video-detail/video-detail",
+			"style": {
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true
+			}
+			
+		},
+		{
+			"path": "pages/tabbar/hot/hot",
+			"style": {
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true
+			}
+			
+		},
+		{
+			"path": "pages/tabbar/type/type",
+			"style": {
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true
+			}
+			
+		},
+		{
+			"path": "pages/typelist/type-list",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+			
+		},
+		{
+			"path": "pages/tabbar/find/find",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cardswiper/index",
+			"style": {
+				"navigationBarTitleText": "滚动渐变的顶部导航栏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/list-animation/list-animation",
+			"style": {
+				"navigationBarTitleText": "滚动渐变的顶部导航栏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/loading/loading",
+			"style": {
+				"navigationBarTitleText": "滚动渐变的顶部导航栏",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/douyinswiper/index",
+			"style": {
+				"navigationBarTitleText": "滚动渐变的顶部导航栏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "滚动渐变的顶部导航栏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				// "navigationBarTitleText": "滚动渐变的顶部导航栏",
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				// "navigationBarTitleText": "滚动渐变的顶部导航栏",
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				// "navigationBarTitleText": "滚动渐变的顶部导航栏",
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "滚动渐变的顶部导航栏",
+				"navigationStyle": "custom",
+				"app-plus":{
+					"softinputNavBar": "none"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "rgb(248, 248, 248)"
+	},
+	"tabBar": {
+		"color": "#a8a8a8",
+		"selectedColor": "#4facfe",
+		"borderStyle": "white",
+		"fontSize": "10px",
+		"iconWidth":"23px",
+		"blurEffect": "extralight",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/home_active.png",
+				"text": "精选"
+			},
+			{
+				"pagePath": "pages/tabbar/find/find",
+				"iconPath": "static/images/tabbar/find.png",
+				"selectedIconPath": "static/images/tabbar/find_active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/tabbar/hot/hot",
+				"iconPath": "static/images/tabbar/hot.png",
+				"selectedIconPath": "static/images/tabbar/hot_active.png",
+				"text": "热门"
+			},
+			{
+				"pagePath": "pages/tabbar/type/type",
+				"iconPath": "static/images/tabbar/type.png",
+				"selectedIconPath": "static/images/tabbar/type_active.png",
+				"text": "分类"
+			}
+		]
+	}
+}

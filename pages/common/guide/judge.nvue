@@ -1,0 +1,34 @@
+<template>
+	<view></view>
+</template>
+
+<script>
+	export default {
+		onLoad() {
+		//#ifdef APP-PLUS
+		//判断是否存在
+		uni.getStorage({
+			key: 'isguide',
+			success: function(){
+				//首页
+			/* 	uni.switchTab({
+				    url: '/pages/index/index'
+				}); */
+				// uni.redirectTo({
+				//     url: '/pages/tabbar/home/home'
+				// });
+				uni.switchTab({
+				   url: '/pages/tabbar/home/home'
+				});
+			},
+			fail: function() {
+				//引导页面
+				uni.redirectTo({
+				   url: '/pages/common/guide/guide'
+				});
+			},
+		});
+		// #endif	
+		}
+	}
+</script>
